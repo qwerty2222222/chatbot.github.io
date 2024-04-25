@@ -9,8 +9,8 @@ button.onclick = () => {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.sexText('Вы нажали на кнопку!');
-        tg.MainButton.show()};
+        tg.MainButton.setText('Вы нажали на кнопку!');
+        tg.MainButton.show();
     }
 
 }
